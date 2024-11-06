@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #2A877B;
+  --secondary-color: #1F6C62;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+}
+
+.login-left {
+  flex: 1;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.login-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: white;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.hospital-logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 1.5rem;
+}
+
+.device-icons {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.device-icons span {
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+  }
+  
+  .login-left, .login-right {
+    flex: none;
+    width: 100%;
+  }
+  
+  .login-left {
+    padding: 2rem 1rem;
+  }
+}
