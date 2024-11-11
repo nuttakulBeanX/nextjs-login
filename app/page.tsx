@@ -36,19 +36,19 @@ export default function Home() {
         <Title level={2} style={{ color: 'white', margin: 0 }}>
           CHULARAT HOSPITAL GROUP
         </Title>
-        <div className="device-icons">
+        {/* <div className="device-icons">
           <MobileOutlined />
           <LaptopOutlined />
           <TabletOutlined />
         </div>
         <Text style={{ color: 'white' }}>
-          Powered by MEDcury Co., Ltd.
+          Doctor Module
         </Text>
         <Text style={{ color: 'white', marginTop: '1rem' }}>
           95 Mobicom 4 Building, 3rd Floor, Soi Phra Pinit,
           <br />
           Tungmahamek, Sathorn, Bangkok 10120
-        </Text>
+        </Text> */}
       </div>
 
       <div className="login-right">
